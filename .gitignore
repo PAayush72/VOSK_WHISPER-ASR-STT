@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+venv.bak/
+env.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Debug recordings (sensitive audio files)
+debug_recordings/*.wav
+debug_recordings/*.mp3
+debug_recordings/*.flac
+
+# Large model files (users should download separately)
+Vosk/
+whisper.cpp/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.backup
+
+# OS
+.DS_Store
+Thumbs.db
+.env
+.env.local
+
+# Node (if using JavaScript)
+node_modules/
+package-lock.json
+npm-debug.log
+
+# Model caches (large files to exclude if desired)
+*.onnx
+*.pt
+
+# System files
+.history/
+.pytest_cache/
